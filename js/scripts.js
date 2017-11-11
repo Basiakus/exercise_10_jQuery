@@ -42,7 +42,7 @@ var addLi = $(firstUl).append("<li>dodatkowy element</li>");
 $(firstUl).find("li").eq(3).css("color", "yellow").text("yellow");
 */
 
-//zadanie 9.1
+//zadanie 10.1
 var jqSpan = $('span');
 jqSpan.each(function(index, element) {
     if (index % 2 == 0) {
